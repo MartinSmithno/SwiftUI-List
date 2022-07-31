@@ -11,7 +11,7 @@ struct ClickOnCellView: View {
                     print("You selected \(animal)")
                 }
             }
-        }.navigationTitle("Animals")
+        }
     }
 }
 
