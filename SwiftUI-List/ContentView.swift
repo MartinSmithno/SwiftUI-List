@@ -12,7 +12,7 @@ struct ContentView: View {
                 NavigationLink("List With Action", destination: ListWithActionView()).foregroundColor(.yellow)
                 NavigationLink("Click On Cell", destination: ClickOnCellView()).foregroundColor(.green)
                 NavigationLink("Click On Text In A Cell", destination: ClickOnImageInCellView()).foregroundColor(.blue)
-                
+                NavigationLink("Click and Pass Another Page", destination: ClickAndPassAnotherPage()).foregroundColor(.pink)
                 
             }.navigationTitle("Lists")
         }
