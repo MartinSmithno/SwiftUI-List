@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C470BDC2894394900098694 /* ClickOnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C470BDB2894394900098694 /* ClickOnCell.swift */; };
 		2CBC6923289402FB0038235B /* SwiftUI_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC6922289402FB0038235B /* SwiftUI_ListApp.swift */; };
 		2CBC6925289402FB0038235B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC6924289402FB0038235B /* ContentView.swift */; };
 		2CBC6927289402FF0038235B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBC6926289402FF0038235B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C470BDB2894394900098694 /* ClickOnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickOnCell.swift; sourceTree = "<group>"; };
 		2CBC691F289402FB0038235B /* SwiftUI-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBC6922289402FB0038235B /* SwiftUI_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ListApp.swift; sourceTree = "<group>"; };
 		2CBC6924289402FB0038235B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				2CBC6926289402FF0038235B /* Assets.xcassets */,
 				2CBC6928289402FF0038235B /* Preview Content */,
 				2CBC693428941FFC0038235B /* ListWithAction.swift */,
+				2C470BDB2894394900098694 /* ClickOnCell.swift */,
 			);
 			path = "SwiftUI-List";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				2CBC693528941FFC0038235B /* ListWithAction.swift in Sources */,
 				2CBC6931289403910038235B /* Static List.swift in Sources */,
 				2CBC69332894124E0038235B /* DynamicListView.swift in Sources */,
+				2C470BDC2894394900098694 /* ClickOnCell.swift in Sources */,
 				2CBC6925289402FB0038235B /* ContentView.swift in Sources */,
 				2CBC6923289402FB0038235B /* SwiftUI_ListApp.swift in Sources */,
 			);
