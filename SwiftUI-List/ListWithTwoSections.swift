@@ -2,7 +2,21 @@ import SwiftUI
 
 struct ListWithTwoSections: View {
     var body: some View {
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Hello, world!@*/Text("Hello, world!")/*@END_MENU_TOKEN@*/
+        
+        List{
+            
+            Section(header: Text("Kitchen")){
+                KitchenCellDesign(furniture: "Board")
+                KitchenCellDesign(furniture: "Chair")
+                KitchenCellDesign(furniture: "Buffets")
+            }
+            
+            Section(header: Text("Fruits")){
+                FruitCellDesign(fruitName: "Watermelon")
+                FruitCellDesign(fruitName: "Apple")
+                FruitCellDesign(fruitName: "Blackberries")
+            }
+        }.navigationBarTitle("List with Two Sections")
     }
 }
 
