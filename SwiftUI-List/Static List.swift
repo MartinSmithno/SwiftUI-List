@@ -4,16 +4,16 @@ struct StaticListView: View {
     var body: some View {
         
         List(){
-            staticListCellDesign(countryName: "Norway")
-            staticListCellDesign(countryName: "Sweden")
-            staticListCellDesign(countryName: "Finland")
-            staticListCellDesign(countryName: "Denmark")
-            staticListCellDesign(countryName: "Iceland")
+            StaticListCellDesign(countryName: "Norway")
+            StaticListCellDesign(countryName: "Sweden")
+            StaticListCellDesign(countryName: "Finland")
+            StaticListCellDesign(countryName: "Denmark")
+            StaticListCellDesign(countryName: "Iceland")
         }.navigationTitle("Countries")
     }
 }
 
-struct staticListCellDesign: View {
+struct StaticListCellDesign: View {
     var countryName: String
     
     var body: some View {

@@ -17,6 +17,7 @@
 		2CBC6931289403910038235B /* Static List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC6930289403910038235B /* Static List.swift */; };
 		2CBC69332894124E0038235B /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC69322894124E0038235B /* DynamicListView.swift */; };
 		2CBC693528941FFC0038235B /* ListWithAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC693428941FFC0038235B /* ListWithAction.swift */; };
+		2CD3D7CE28A449C8002A2178 /* ListWithTwoSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3D7CD28A449C8002A2178 /* ListWithTwoSections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2CBC6930289403910038235B /* Static List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Static List.swift"; sourceTree = "<group>"; };
 		2CBC69322894124E0038235B /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
 		2CBC693428941FFC0038235B /* ListWithAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithAction.swift; sourceTree = "<group>"; };
+		2CD3D7CD28A449C8002A2178 /* ListWithTwoSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithTwoSections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +69,13 @@
 				2CBC6924289402FB0038235B /* ContentView.swift */,
 				2CBC6930289403910038235B /* Static List.swift */,
 				2CBC69322894124E0038235B /* DynamicListView.swift */,
-				2CBC6926289402FF0038235B /* Assets.xcassets */,
-				2CBC6928289402FF0038235B /* Preview Content */,
 				2CBC693428941FFC0038235B /* ListWithAction.swift */,
 				2C470BDB2894394900098694 /* ClickOnCell.swift */,
 				2C5460322896C61E00133493 /* ClickOnImageInCell.swift */,
 				2C5460342896D04A00133493 /* ClickAndPassAnotherPage.swift */,
+				2CBC6926289402FF0038235B /* Assets.xcassets */,
+				2CBC6928289402FF0038235B /* Preview Content */,
+				2CD3D7CD28A449C8002A2178 /* ListWithTwoSections.swift */,
 			);
 			path = "SwiftUI-List";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD3D7CE28A449C8002A2178 /* ListWithTwoSections.swift in Sources */,
 				2CBC693528941FFC0038235B /* ListWithAction.swift in Sources */,
 				2CBC6931289403910038235B /* Static List.swift in Sources */,
 				2CBC69332894124E0038235B /* DynamicListView.swift in Sources */,
