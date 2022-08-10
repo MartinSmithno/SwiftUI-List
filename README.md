@@ -8,3 +8,4 @@ This project shows basic list types in SwiftUI.
 - Cell Design
 - Click on cell
 - Click on cell to present another view
+- List with two sections
