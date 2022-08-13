@@ -8,4 +8,4 @@ This project shows basic list types in SwiftUI.
 - Cell Design
 - Click on cell
 - Click on cell to present another view
-- List with two sections
+- [List with two sections](https://github.com/MartinSmithno/SwiftUI-List/blob/main/SwiftUI-List/ListWithTwoSections.swift)
